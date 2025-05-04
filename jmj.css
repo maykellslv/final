@@ -1,0 +1,36 @@
+.body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(250,235,215);
+}
+
+.wave{
+    margin-bottom: 20000000px;
+}
+
+.navbar-brand, .navbar-nav{
+    font-family: "Questrial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.text-primary{
+    font-size: 60px;
+}
+
+.nav-item{
+    font-size: 18px;
+}
+
+.nav-item:hover{
+    color: blue;
+}
+
+.box{
+    transition: transform 0.3s ease;
+}
+
+.box:hover{
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
